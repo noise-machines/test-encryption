@@ -1,0 +1,13 @@
+{
+  "name": "dependency-test",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "C. Thomas Bailey (@noise_machines)",
+  "license": "MIT",
+  "scripts": {
+    "transcrypt": "node_modules/transcrypt/transcrypt"
+  },
+  "dependencies": {
+    "transcrypt": "https://github.com/elasticdog/transcrypt/archive/v2.0.0.tar.gz"
+  }
+}
